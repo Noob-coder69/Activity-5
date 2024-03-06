@@ -28,7 +28,7 @@ function calculateCommissionFunction(lockQty, stockQty, barrelQty) {
         commissionRate = 0.2;
     }
 
-    // Calculate commission values
+    // Calculate commission 
     let commission = totalSales * commissionRate;
 
     // Subtract commission for 1 lock
